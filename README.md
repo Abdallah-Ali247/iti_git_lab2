@@ -1,4 +1,4 @@
-# Lab 2 Soloution Steps 
+# Lab 2 Soloution Steps (Abdallah Ali Abdallah) 
   [Review Steps](Steps.txt)
 
 ## Removing Branches"
