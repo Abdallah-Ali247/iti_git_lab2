@@ -1,3 +1,5 @@
+# Lab 2 Soloution Steps ![Steps](Steps.txt)
+
 ## Removing Branches"
 ### Locally:
 `git branch -d dev`
