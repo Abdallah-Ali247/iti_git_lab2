@@ -1,0 +1,68 @@
+
+/* ******************** create repo then add file ********************* */
+
+1. cd to project dir
+2. git init
+3. echo "Print('Hello from Main')" >main.py
+4. git branch -M main
+5. git add . 
+6. git commit -m "first commit print from main"
+7. git remote add origin https://github.com/Abdallah-Ali247/iti_git_lab2.git
+8. git push -u origin main
+
+/* ******************* create branch dev ****************************** */
+
+9. gti checkout -b dev
+10. echo "this is the dev branch " > dev.txt
+11. git add dev.txt
+12. git commit -m "add dev.txt file to dev branch"
+13. git push -u origin dev
+
+/* ***************** create branch test **************************** */
+14. git checkout -b test
+15. echo "this is test branch " > test.txt
+16. git add test.txt
+17. git commit -m "add test.txt file on test branch"
+18. git push -u origin test
+
+/* ***************************** Merge changes into main *************** */
+19. git checkout main
+20. git merge dev
+21. git merge test 
+22. git push origin main
+
+/* **************************** annotatated tag ************************ */
+23. git tag -a v1.7 -m "Release version 1.7"
+24. git push origin v1.7
+
+/* **************************** readme.md ********************* */
+look at gitgub
+
+/* **************************** ignore ********************* */
+25. echo "This is a secret file" > secret.txt
+26. echo "secret.txt" >> .gitignore
+27. git add .gitignore  
+28. git commit -m "Add .gitignore to exclude secret.txt"  
+29. git push origin main 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
